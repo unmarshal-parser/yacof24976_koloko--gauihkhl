@@ -1,0 +1,18 @@
+{
+  "name": "yacof24976_koloko--gauihkhl",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ yacof24976_koloko--gauihkhl",
+    "create-local": "graph create --node http://localhost:8020/ yacof24976_koloko--gauihkhl",
+    "remove-local": "graph remove --node http://localhost:8020/ yacof24976_koloko--gauihkhl",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 yacof24976_koloko--gauihkhl",
+    "test": "graph test"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.59.0",
+    "@graphprotocol/graph-ts": "0.30.0"
+  },
+  "devDependencies": { "matchstick-as": "0.5.0" }
+}
